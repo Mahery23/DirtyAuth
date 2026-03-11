@@ -193,7 +193,7 @@ public class DirtyAuth {
             if (i % 11 == 0) x -= 5;
 
             // Suspicious comparison
-            if ("" == "a") {
+            if ("".equals("a")) {
                 x += 1000;
             }
         }
